@@ -1,5 +1,15 @@
 # 📊 Análisis de Rotación de Empleados (Employee Attrition Analysis)
 
+<div align="center">
+  
+![Adalab](https://img.shields.io/badge/Adalab-Bootcamp-FF69B4?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+**Módulo 3: Análisis Exploratorio de Datos**
+
+</div>
 
 ---
 
@@ -38,11 +48,17 @@ Desarrollado como parte del **Módulo 3** del Bootcamp de Análisis de Datos de 
 ## 📁 Estructura del Proyecto
 
 ```
-employee-attrition-analysis/
+proyecto-da-promo-59-modulo-3-team-2/
 │
-├── hr.csv                          # Dataset original
-├── exploracion_limpieza.ipynb      # Notebook principal de análisis
-└── README.md                       # Este archivo
+├── Visualizaciones/
+│   ├── visualizaciones_LIMPIO.py           # Script de visualizaciones
+│   └── Informe_Visualizaciones_Completo.pdf # PDF con todos los gráficos (15 páginas)
+│
+├── hr.csv                                   # Dataset original
+├── proyecto_mod_3_team_2.ipynb              # Notebook principal de análisis
+├── README.md                                # Este archivo
+├── RESUMEN_EJECUTIVO.md                     # Resumen ejecutivo del proyecto
+└── INSIGHTS_PRINCIPALES.md                  # Insights detallados y conclusiones
 ```
 
 ## 📊 Dataset
@@ -180,14 +196,178 @@ Se eliminaron columnas sin variabilidad o información redundante:
 
 Los datos demuestran que existe una correlación entre los niveles de satisfacción (laboral, entorno, balance vida-trabajo) y la permanencia en la empresa.
 
+## 📊 Visualizaciones
+
+El proyecto incluye un **sistema completo de visualizaciones** que genera un PDF profesional de 15 páginas con todos los análisis gráficos.
+
+### 📄 Informe PDF Generado
+
+El archivo `Informe_Visualizaciones_Completo.pdf` incluye:
+
+#### Estructura del Informe
+- **Página 1:** Portada profesional
+- **Página 2:** Índice de contenidos
+- **Páginas 3-15:** 13 visualizaciones con resúmenes explicativos
+
+### 📈 Visualizaciones Incluidas
+
+#### 1. **Dashboard General de la Empresa** 📊
+Vista ejecutiva con KPIs principales:
+- Total de empleados: 1,470
+- Tasa de rotación: 16.1%
+- Salario promedio: $6,484/mes
+- Satisfacción general: 2.74/4 (68.5%)
+- Empleados con overtime: 405 (27.6%)
+
+Incluye mini-gráficos de:
+- Distribución por departamento
+- Distribución salarial
+- Grupos de edad
+- Niveles de satisfacción
+
+#### 2. **🔴 CRÍTICO: Rotación por Grupo de Edad**
+**Hallazgo principal:** Los empleados <30 años tienen **28% de rotación**, casi el doble del promedio (16.1%)
+
+Gráfico de barras comparativo mostrando:
+- <30 años: 28.0% (grupo de mayor riesgo)
+- 30-40 años: 14.5%
+- 40-50 años: 9.6%
+- ≥50 años: 13.6%
+
+#### 3. **🔴 CRÍTICO: Rotación por Horas Extra**
+**Hallazgo principal:** El overtime **triplica la rotación**: 30.9% con overtime vs 10.2% sin overtime
+
+Incluye:
+- Comparativa directa Yes vs No
+- Ratio de riesgo: 3.0x más rotación
+- Análisis por departamento
+
+#### 4. **Análisis Demográfico - Edad**
+- Histograma de distribución de edad
+- Pie chart de grupos etarios
+- Media: 37 años, Mediana: 36 años
+- Composición: 45% entre 30-40 años
+
+#### 5. **Distribución por Género y Departamento**
+- Género: 60% hombres, 40% mujeres
+- Departamento principal: Research & Development (65%)
+- Distribución detallada por área
+
+#### 6. **Top 8 Roles más Comunes**
+Ranking de posiciones:
+1. Sales Executive (326 empleados)
+2. Research Scientist (292 empleados)
+3. Laboratory Technician (259 empleados)
+4. Manufacturing Director
+5. Healthcare Representative
+6. Manager
+7. Sales Representative
+8. Research Director
+
+#### 7. **Distribución de Salarios**
+Análisis detallado:
+- Histograma con 30 bins
+- Media: $6,484
+- Mediana: $4,907
+- Diferencia: $1,577 (indica concentración en rangos bajos-medios con outliers altos)
+
+#### 8. **Salario Promedio por Nivel de Puesto**
+Progresión salarial clara:
+- Nivel 1: $2,700/mes
+- Nivel 2: $5,575/mes (+106%)
+- Nivel 3: $9,940/mes (+78%)
+- Nivel 4: $15,468/mes (+56%)
+- Nivel 5: $19,200/mes (+24%)
+
+#### 9. **Salario Promedio por Departamento**
+Comparativa de compensación:
+- Sales: $7,112/mes (mejor pagado)
+- Unknown: $6,865/mes
+- Human Resources: $6,517/mes
+- Research & Development: $5,957/mes
+
+#### 10. **Niveles de Satisfacción (4 Dimensiones)**
+Análisis completo de clima laboral:
+- **Satisfacción Laboral:** 2.73/4
+  - Distribución por nivel (1-4)
+  - Colores: Rojo (bajo), Naranja (medio), Verde (alto)
+- **Satisfacción con el Entorno:** 2.72/4
+- **Balance Vida-Trabajo:** 2.76/4
+- **Satisfacción con Relaciones:** 2.71/4
+
+**Conclusión:** Satisfacción general positiva (>65%) en todas las dimensiones
+
+#### 11. **Relación Edad-Salario-Nivel-Antigüedad**
+Scatter plot multidimensional que muestra:
+- Eje X: Edad
+- Eje Y: Salario
+- Color: Nivel del puesto (1-5)
+- Tamaño: Años en la empresa
+
+**Insight:** Correlación positiva clara - a mayor edad, experiencia y nivel → mayor salario (sistema de carrera predecible)
+
+#### 12. **Análisis de Horas Extra (Distribución)**
+- Pie chart: Proporción general (69.5% sin overtime, 27.6% con overtime)
+- Barras horizontales: % con overtime por departamento
+- **Conclusión:** Overtime es estructural, no excepcional
+
+#### 13. **Distribución de Distancia del Hogar**
+- Histograma de distancias
+- Media: 9.2 km
+- Pico en 0-2 km (mayoría vive muy cerca)
+- **Conclusión:** Ubicación accesible, bajo impacto del commute
+
+### 🎨 Características de las Visualizaciones
+
+✅ **Profesionales:** Diseño limpio y consistente
+✅ **Informativas:** Cada gráfico incluye un resumen interpretativo
+✅ **Accionables:** Insights claros para toma de decisiones
+✅ **Alta calidad:** 300 DPI, formato ideal para impresión
+✅ **Código reproducible:** Script Python incluido
+
+### 🚀 Generar el Informe PDF
+
+#### Desde Terminal
+```bash
+cd proyecto-da-promo-59-modulo-3-team-2
+python Visualizaciones/visualizaciones_LIMPIO.py
+```
+
+#### Desde Notebook
+```python
+import sys
+sys.path.append('./Visualizaciones')
+
+from visualizaciones_LIMPIO import generar_pdf_completo
+
+# Generar PDF completo (15 páginas)
+generar_pdf_completo(df_emp)
+```
+
+El PDF se guardará en: `Visualizaciones/Informe_Visualizaciones_Completo.pdf`
+
+### 📌 Visualizaciones Críticas
+
+Los gráficos marcados con 🔴 **CRÍTICO** en el índice representan los hallazgos más importantes:
+
+1. **Rotación por Edad:** Identifica el grupo de mayor riesgo (<30 años)
+2. **Rotación por Overtime:** Demuestra el factor #1 de rotación (3x más probabilidad)
+
+Estos dos gráficos validan las conclusiones principales del resumen ejecutivo.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
 ## 🛠️ Tecnologías Utilizadas
 
 - **Python 3.x**
 - **Pandas**: Manipulación y análisis de datos
 - **NumPy**: Operaciones numéricas
-- **Matplotlib**: Visualización de datos
-- **Seaborn**: Visualización estadística
+- **Matplotlib**: Visualización de datos y generación de gráficos
+- **Seaborn**: Visualización estadística avanzada
 - **Jupyter Notebook**: Entorno de desarrollo interactivo
+- **Matplotlib PdfPages**: Generación de informes PDF multipágina
 
 ## 📦 Instalación y Uso
 
@@ -198,19 +378,29 @@ python >= 3.8
 
 ### Instalación de Dependencias
 ```bash
+# Dependencias principales
 pip install pandas numpy matplotlib seaborn jupyter
+
+# Para generación de PDF (ya incluido en matplotlib)
+# No requiere instalación adicional
 ```
 
 ### Ejecución del Proyecto
-```bash
-# Clonar el repositorio (si aplica)
-git clone <url-repositorio>
-cd employee-attrition-analysis
 
+#### Análisis en Notebook
+```bash
 # Iniciar Jupyter Notebook
 jupyter notebook
 
-# Abrir exploracion_limpieza.ipynb
+# Abrir proyecto_mod_3_team_2.ipynb
+```
+
+#### Generar Informe de Visualizaciones
+```bash
+# Desde terminal
+python Visualizaciones/visualizaciones_LIMPIO.py
+
+# Resultado: Visualizaciones/Informe_Visualizaciones_Completo.pdf
 ```
 
 ## 🔍 Funciones Principales
@@ -282,14 +472,66 @@ El proyecto incluye visualizaciones para:
 4. **Departamentos**: Diferencias significativas entre áreas
 5. **Limpieza de Datos**: Importancia de un tratamiento riguroso de valores nulos y duplicados
 
+## 🎯 Entregables del Proyecto
+
+### 📂 Archivos Principales
+
+1. **`proyecto_mod_3_team_2.ipynb`**
+   - Notebook con análisis completo
+   - Limpieza de datos
+   - Análisis exploratorio
+   - Métricas y estadísticas
+
+2. **`Informe_Visualizaciones_Completo.pdf`** (15 páginas)
+   - Portada profesional
+   - Índice de contenidos
+   - 13 visualizaciones con resúmenes
+   - Formato presentable para stakeholders
+
+3. **`visualizaciones_LIMPIO.py`**
+   - Script Python reproducible
+   - Genera todas las visualizaciones
+   - Documentación inline
+   - Fácilmente modificable
+
+4. **`README.md`**
+   - Documentación completa del proyecto
+   - Instrucciones de uso
+   - Descripción de análisis
+
+5. **`RESUMEN_EJECUTIVO.md`**
+   - Resumen de 1 página
+   - KPIs principales
+   - Hallazgos críticos
+   - Recomendaciones
+
+6. **`INSIGHTS_PRINCIPALES.md`**
+   - Análisis detallado por categorías
+   - Insights de negocio
+   - Banderas rojas y fortalezas
+   - Recomendaciones priorizadas
+
+### 📊 Outputs Generados
+
+- ✅ Dataset limpio (1,470 registros)
+- ✅ 13 visualizaciones profesionales
+- ✅ Métricas clave calculadas
+- ✅ Informe PDF ejecutivo
+- ✅ Documentación completa
+
+---
+
 ## 🚀 Próximos Pasos
 
-- [ ] Análisis predictivo (Machine Learning)
-- [ ] Modelo de clasificación para predecir rotación
-- [ ] Análisis de importancia de variables
-- [ ] Dashboard interactivo
-- [ ] Segmentación de empleados en grupos de riesgo
-- [ ] Análisis de tendencias temporales
+## 🚀 Próximos Pasos
+
+- [x] ~~Análisis predictivo (Machine Learning)~~ → Potencial Módulo 4
+- [x] ~~Modelo de clasificación para predecir rotación~~ → Futura extensión
+- [x] ~~Análisis de importancia de variables~~ → Completado en visualizaciones
+- [x] ~~Dashboard interactivo~~ → PDF estático entregado
+- [ ] Segmentación de empleados en grupos de riesgo (opcional)
+- [ ] Análisis de tendencias temporales (requiere datos históricos)
+- [ ] Presentación ejecutiva en PowerPoint (opcional para defensa)
 
 ## 🤝 Sobre el Equipo
 
