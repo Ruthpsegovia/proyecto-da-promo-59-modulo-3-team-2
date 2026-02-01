@@ -391,7 +391,7 @@ def niveles_satisfaccion(df):
             else:
                 bar.set_color('#27ae60')
         
-        axes[i].axhline(y=media * len(df) / 4, color='blue', linestyle='--', linewidth=2, alpha=0.6, label=f'Media: {media:.2f}')
+        axes[i].axvline(x=media, color='blue', linestyle='--', linewidth=2, alpha=0.6, label=f'Media: {media:.2f}')
         axes[i].set_title(titulo, fontweight='bold', fontsize=11)
         axes[i].set_xlabel('Nivel (1=Bajo, 4=Alto)')
         axes[i].set_ylabel('Empleados')
