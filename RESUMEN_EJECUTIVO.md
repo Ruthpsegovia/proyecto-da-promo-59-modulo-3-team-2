@@ -3,7 +3,7 @@
 
 **Proyecto:** Módulo 3 - Bootcamp Análisis de Datos Adalab  
 **Equipo:** Ana, Ruth, Tamara, Leire  
-**Fecha:** Enero 2025
+**Fecha:** Enero 2026
 
 ---
 
@@ -101,5 +101,5 @@ La rotación en esta empresa está asociada principalmente con **factores modifi
 
 ---
 
-**Elaborado por:** Equipo Adalab - Módulo 3  
-**Contacto:** [Información del equipo]
+**Elaborado por:** Adalab - Módulo 3- Team 2  
+
