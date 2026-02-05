@@ -97,7 +97,7 @@ proyecto-da-promo-59-modulo-3-team-2/
 * Tratamiento de valores nulos:  
   * Imputación por mediana para variables numéricas.  
   * Reemplazo por “Unknown” para variables categóricas.  
-* Eliminación de columnas sin variabilidad relevante. :contentReference[oaicite:6]{index=6}
+* Eliminación de columnas sin variabilidad relevante. 
 
 ### 2. Transformación de Datos
 
@@ -105,13 +105,13 @@ proyecto-da-promo-59-modulo-3-team-2/
 * Creación de variables derivadas:  
   * `Attrition_flag`: binaria para indicar rotación.  
   * `AgeGroup`: segmentos etarios.  
-* Ajuste de tipos de datos para eficiencia. :contentReference[oaicite:7]{index=7}
+* Ajuste de tipos de datos para eficiencia.
 
 ### 3. Exploración de Datos (EDA)
 
 * Análisis univariado y bivariado.  
 * Identificación de patrones en relación a rotación (edad, departamento, horas extra, satisfacción, etc.).  
-* Visualización de métricas clave para stakeholders. :contentReference[oaicite:8]{index=8}
+* Visualización de métricas clave para stakeholders.
 
 ---
 
@@ -128,7 +128,7 @@ proyecto-da-promo-59-modulo-3-team-2/
 
 * Los empleados jóvenes y los que realizan *OverTime* presentan mayor riesgo de abandonar.  
 * La satisfacción laboral y con el entorno son predictores importantes de retención.  
-* Diferencias significativas entre departamentos. :contentReference[oaicite:9]{index=9}
+* Diferencias significativas entre departamentos. 
 
 ---
 
@@ -151,7 +151,7 @@ proyecto-da-promo-59-modulo-3-team-2/
 * **Python:** Lenguaje base para análisis de datos.  
 * **Pandas / NumPy:** Manipulación y cálculo numérico.  
 * **Matplotlib / Seaborn:** Visualización de datos.  
-* **Jupyter Notebook:** Entorno de análisis interactivo. :contentReference[oaicite:10]{index=10}
+* **Jupyter Notebook:** Entorno de análisis interactivo.
 
 ---
 
@@ -178,7 +178,7 @@ proyecto-da-promo-59-modulo-3-team-2/
 
 ## Autoría
 
-Proyecto desarrollado por el **Equipo del Módulo 3 – Análisis de Datos** del Bootcamp de Adalab:
+Proyecto desarrollado por el **Equipo 2 del Módulo 3 – Análisis de Datos** del Bootcamp de Adalab:
 
 <table align="center">
   <tr>
