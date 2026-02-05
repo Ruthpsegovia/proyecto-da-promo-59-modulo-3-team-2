@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="Image Adalab.png" width="300" alt="Análisis de Rotación de Empleados">
+  <img src="logo ABC corporation.png" width="300" alt="Análisis de Rotación de Empleados">
 </p>
 
 ---
