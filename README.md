@@ -62,6 +62,7 @@ El proyecto abarca:
 ---
 
 ## Estructura del Proyecto
+
 proyecto-da-promo-59-modulo-3-team-2/
 │
 ├── Base_Datos/                      # Datos originales
@@ -74,7 +75,7 @@ proyecto-da-promo-59-modulo-3-team-2/
 ├── README.md                        # Documentación principal
 ├── RESUMEN_EJECUTIVO.md             # Resumen de resultados
 └── INSIGHTS_PRINCIPALES.md          # Detalles e *insights* claves
-``` :contentReference[oaicite:5]{index=5}
+
 
 ---
 
@@ -175,8 +176,3 @@ Proyecto desarrollado por el **Equipo del Módulo 3 – Análisis de Datos** del
 * Leire  
 
 ✨ **¡Gracias por explorar nuestro análisis!** ✨ :contentReference[oaicite:11]{index=11}
-
----
-
-Si necesitas también generar **versiones en inglés** o un **Badge de GitHub** para cada sección, dímelo y te lo preparo.
-::contentReference[oaicite:12]{index=12}
