@@ -180,19 +180,35 @@ proyecto-da-promo-59-modulo-3-team-2/
 
 Proyecto desarrollado por el **Equipo del Módulo 3 – Análisis de Datos** del Bootcamp de Adalab:
 
-<p align="center">
-  <a href="https://github.com/anitaromero25-bot">
-    <img src="https://github.com/anitaromero25-bot.png" width="80" height="80" style="border-radius:50%;" alt="Ana Romero"/>
-  </a>
-  <a href="https://github.com/leiremarinas-sys">
-    <img src="https://github.com/leiremarinas-sys.png" width="80" height="80" style="border-radius:50%;" alt="Leire Marinas"/>
-  </a>
-  <a href="https://github.com/Ruthpsegovia">
-    <img src="https://github.com/Ruthpsegovia.png" width="80" height="80" style="border-radius:50%;" alt="Ruth Perez"/>
-  </a>
-  <a href="https://github.com/TamDb22">
-    <img src="https://github.com/TamDb22.png" width="80" height="80" style="border-radius:50%;" alt="Tamara Diaz"/>
-  </a>
-</p> 
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/anitaromero25-bot">
+        <img src="https://github.com/anitaromero25-bot.png" width="80" height="80" style="border-radius:50%;" alt="Ana Romero"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/leiremarinas-sys">
+        <img src="https://github.com/leiremarinas-sys.png" width="80" height="80" style="border-radius:50%;" alt="Leire Marinas"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Ruthpsegovia">
+        <img src="https://github.com/Ruthpsegovia.png" width="80" height="80" style="border-radius:50%;" alt="Ruth Perez"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/TamDb22">
+        <img src="https://github.com/TamDb22.png" width="80" height="80" style="border-radius:50%;" alt="Tamara Diaz"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Ana Romero</b></td>
+    <td align="center"><b>Leire Marinas</b></td>
+    <td align="center"><b>Ruth Pérez</b></td>
+    <td align="center"><b>Tamara Díaz</b></td>
+  </tr>
+</table>
 
 ✨ **¡Gracias por explorar nuestro análisis!** ✨ 
