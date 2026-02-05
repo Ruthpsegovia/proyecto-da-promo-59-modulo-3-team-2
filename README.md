@@ -63,18 +63,28 @@ El proyecto abarca:
 
 ## Estructura del Proyecto
 
+```
 proyecto-da-promo-59-modulo-3-team-2/
 │
-├── Base_Datos/                      # Datos originales
-├── Documentación Inicial/           # Documentos de planificación
-├── Visualizaciones/                 # Código de gráficos y PDF
+├── Base_Datos/
+│   ├── .env
+│   ├── .gitignore
+│   ├── ABC_Corporation_db.ipynb
+│   ├── df_final.csv
+│
+├── Documentación Inicial/
+│   ├── columnas_hr.md
+│   ├── hr.csv
+│   └── Proyecto-3 Transformando el Talento.pdf
+│
+├── Visualizaciones/
 │   ├── visualizaciones_LIMPIO.py
 │   └── Informe_Visualizaciones_Completo.pdf
-├── hr.csv                          # Dataset principal
-├── proyecto_mod_3_team_2.ipynb      # Notebook de análisis
-├── README.md                        # Documentación principal
-├── RESUMEN_EJECUTIVO.md             # Resumen de resultados
-└── INSIGHTS_PRINCIPALES.md          # Detalles e *insights* claves
+│
+├── README.md
+├── RESUMEN_EJECUTIVO.md
+└── INSIGHTS_PRINCIPALES.md
+```    
 
 
 ---
