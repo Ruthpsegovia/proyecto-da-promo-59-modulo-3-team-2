@@ -185,4 +185,4 @@ Proyecto desarrollado por el **Equipo del Módulo 3 – Análisis de Datos** del
 * Tamara  
 * Leire  
 
-✨ **¡Gracias por explorar nuestro análisis!** ✨ :contentReference[oaicite:11]{index=11}
+✨ **¡Gracias por explorar nuestro análisis!** ✨ 
