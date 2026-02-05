@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="logo ABC corporation.png" width="300" alt="Análisis de Rotación de Empleados">
+  <img src="Logo el dato incomodo.jpg" width="300" alt="Análisis de Rotación de Empleados">
 </p>
 
 ---
