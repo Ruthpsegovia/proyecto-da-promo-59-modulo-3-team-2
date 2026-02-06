@@ -22,6 +22,7 @@
   - [1. Limpieza de Datos](#1-limpieza-de-datos)
   - [2. Transformación de Datos](#2-transformación-de-datos)
   - [3. Exploración de Datos (EDA)](#3-exploración-de-datos-eda)
+  - [4. Creación de la Base de Datos](#4-creación-de-la-base-de-datos)
 - [Resultados y Hallazgos](#resultados-y-hallazgos)
 - [Herramientas](#herramientas)
 - [Instalación y Ejecución](#instalación-y-ejecución)
@@ -112,6 +113,13 @@ proyecto-da-promo-59-modulo-3-team-2/
 * Análisis univariado y bivariado.  
 * Identificación de patrones en relación a rotación (edad, departamento, horas extra, satisfacción, etc.).  
 * Visualización de métricas clave para stakeholders.
+
+### 4. Creación de la Base de Datos
+
+* Diseño de la estructura de la base de datos a partir del dataset original de RRHH.
+* Organización y consolidación de la información en un dataset final limpio (`df_final.csv`).
+* Preparación de los datos para su uso en análisis exploratorio y visualización.
+* Almacenamiento y versionado de los archivos dentro del repositorio para garantizar trazabilidad y reproducibilidad.
 
 ---
 
