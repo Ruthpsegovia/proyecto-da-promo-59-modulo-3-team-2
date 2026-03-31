@@ -10,6 +10,22 @@
 
 ---
 
+## Resumen ejecutivo (para qué sirve)
+
+**Pregunta:** ¿Qué factores están más asociados a la rotación (attrition) y en qué segmentos es más alta?  
+**Objetivo:** identificar palancas accionables para mejorar **retención** y apoyar decisiones basadas en datos.  
+
+**Entregables clave (en este repo):**
+- 📄 **Resumen ejecutivo:** `Resumen ejecutivo.pdf`
+- 🧼 **Limpieza/transformación:** `Transformacion y limpieza.ipynb`
+- 📊 **Dataset final:** `Visualizaciones/df_final.csv`
+- 📈 **Storytelling / visual:** `Visualizaciones/Visual_Storytelling.ipynb`
+- 🗃️ **Base de datos / materiales:** carpeta `Base_Datos/`
+
+**Aplicación (empleabilidad / impacto):** el mismo enfoque de segmentación + KPIs sirve para detectar “puntos de fuga”, abandono y adherencia en programas, y ajustar intervenciones con mejora continua.
+
+---
+
 ## Índice de Contenidos
 
 - [Índice de Contenidos](#índice-de-contenidos)
@@ -64,29 +80,23 @@ El proyecto abarca:
 
 ## Estructura del Proyecto
 
-```
+```text
 proyecto-da-promo-59-modulo-3-team-2/
-│
 ├── Base_Datos/
-│   ├── .env
 │   ├── .gitignore
 │   ├── ABC_Corporation_db.ipynb
-│   ├── df_final.csv
-│
+│   └── .env   (recomendación: no versionar credenciales)
 ├── Documentación Inicial/
+│   ├── Proyecto-3 Transformando el Talento.pdf
 │   ├── columnas_hr.md
-│   ├── hr.csv
-│   └── Proyecto-3 Transformando el Talento.pdf
-│
+│   └── hr.csv
 ├── Visualizaciones/
-│   ├── visualizaciones_LIMPIO.py
-│   └── Informe_Visualizaciones_Completo.pdf
-│
-├── README.md
-├── RESUMEN_EJECUTIVO.md
-└── INSIGHTS_PRINCIPALES.md
-```    
-
+│   ├── Visual_Storytelling.ipynb
+│   └── df_final.csv
+├── Transformacion y limpieza.ipynb
+├── Resumen ejecutivo.pdf
+└── README.md
+```
 
 ---
 
@@ -126,17 +136,16 @@ proyecto-da-promo-59-modulo-3-team-2/
 ## Resultados y Hallazgos
 
 | Métrica | Resultado |
-|---------|-----------|
-| Tasa global de rotación | **16.1%** de empleados abandonan la empresa. |
-| Grupo de Edad con mayor rotación | **<30 años** (28%). |
-| Efecto de horas extra | **Sí** triplica la probabilidad de rotación. |
-| Satisfacción | Menores niveles asociados a mayor rotación. |
+|---|---|
+| Tasa global de rotación | 16,1% de empleados abandonan la empresa |
+| Grupo de edad con mayor rotación | <30 años (28%) |
+| Efecto de horas extra (OverTime) | “Sí” triplica la probabilidad de rotación |
+| Satisfacción | Menores niveles asociados a mayor rotación |
 
 **Insights de negocio clave:**
-
-* Los empleados jóvenes y los que realizan *OverTime* presentan mayor riesgo de abandonar.  
-* La satisfacción laboral y con el entorno son predictores importantes de retención.  
-* Diferencias significativas entre departamentos. 
+- Los empleados jóvenes y quienes realizan OverTime presentan mayor riesgo de abandono.
+- La satisfacción laboral y con el entorno son predictores importantes de retención.
+- Existen diferencias relevantes entre departamentos.
 
 ---
 
@@ -165,22 +174,28 @@ proyecto-da-promo-59-modulo-3-team-2/
 
 ## Instalación y Ejecución
 
-1. **Clonar el repositorio:**
-    ```bash
-    git clone https://github.com/anitaromero25-bot/proyecto-da-promo-59-modulo-3-team-2.git
-    ```
-2. **Instalar dependencias:**
-    ```bash
-    pip install pandas numpy matplotlib seaborn jupyter
-    ```
-3. **Ejecutar el Notebook:**
-    ```bash
-    jupyter notebook proyecto_mod_3_team_2.ipynb
-    ```
-4. **Generar el informe de visualizaciones (PDF):**
-    ```bash
-    python Visualizaciones/visualizaciones_LIMPIO.py
-    ```
+1) Clonar el repositorio:
+
+```bash
+git clone https://github.com/Ruthpsegovia/proyecto-da-promo-59-modulo-3-team-2.git
+cd proyecto-da-promo-59-modulo-3-team-2
+```
+
+2) Instalar dependencias:
+
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+```
+
+3) Ejecutar los notebooks:
+
+```bash
+jupyter notebook
+```
+
+Luego abre desde el navegador:
+- `Transformacion y limpieza.ipynb`
+- `Visualizaciones/Visual_Storytelling.ipynb`
 
 ---
 
@@ -202,12 +217,12 @@ Proyecto desarrollado por el **Equipo 2 del Módulo 3 – Análisis de Datos** d
     </td>
     <td align="center">
       <a href="https://github.com/Ruthpsegovia">
-        <img src="https://github.com/Ruthpsegovia.png" width="80" height="80" style="border-radius:50%;" alt="Ruth Perez"/>
+        <img src="https://github.com/Ruthpsegovia.png" width="80" height="80" style="border-radius:50%;" alt="Ruth Pérez"/>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/TamDb22">
-        <img src="https://github.com/TamDb22.png" width="80" height="80" style="border-radius:50%;" alt="Tamara Diaz"/>
+        <img src="https://github.com/TamDb22.png" width="80" height="80" style="border-radius:50%;" alt="Tamara Díaz"/>
       </a>
     </td>
   </tr>
@@ -219,4 +234,4 @@ Proyecto desarrollado por el **Equipo 2 del Módulo 3 – Análisis de Datos** d
   </tr>
 </table>
 
-✨ **¡Gracias por explorar nuestro análisis!** ✨ 
+✨ **¡Gracias por explorar nuestro análisis!** ✨
